@@ -1,0 +1,1 @@
+$(function(){$("#box .header").on("click","img",function(){window.location.href="clearinghouse.html"}),$("#box .content .payform").on("click","input",function(){var n=$(this).parents().find("span").html();localStorage.send=n,localStorage.panduan2=!0,$("#box").on("click",".btn",function(){window.location.href="clearinghouse.html"})})});

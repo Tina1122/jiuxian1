@@ -1,0 +1,1 @@
+$(function(){var n=!0;$(".rig").click(function(){n?$("#nav").show():$("#nav").hide(),n=!n}),$("#head .lef").on("click","img",function(){window.location.href="clearinghouse.html"})});
