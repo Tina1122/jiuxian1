@@ -1,1 +1,0 @@
-$(function(){var n=!0;$(".rig").click(function(){n?$("#nav").show():$("#nav").hide(),n=!n}),$(".grzx").click(function(){var n=localStorage.getItem("login");n?window.location.href="html/personcenter.html":window.location.href="html/login.html"})});
